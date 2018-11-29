@@ -9,34 +9,42 @@ import android.widget.Toast
  */
 object SimpleToast {
 
+    @JvmStatic
     fun longToast(context: Context, text: String) {
         Toast.makeText(context, text, Toast.LENGTH_LONG).show()
     }
 
+    @JvmStatic
     fun shortToast(context: Context, text: String) {
         Toast.makeText(context, text, Toast.LENGTH_SHORT).show()
     }
 
+    @JvmStatic
     fun longToast(context: Context, number: Int){
         Toast.makeText(context, number.toString(), Toast.LENGTH_LONG).show()
     }
 
+    @JvmStatic
     fun shortToast(context: Context, number: Int){
         Toast.makeText(context, number.toString(), Toast.LENGTH_SHORT).show()
     }
 
+    @JvmStatic
     fun longToast(context: Context, number: Long){
         Toast.makeText(context, number.toString(), Toast.LENGTH_LONG).show()
     }
 
+    @JvmStatic
     fun shortToast(context: Context, number: Long){
         Toast.makeText(context, number.toString(), Toast.LENGTH_SHORT).show()
     }
 
+    @JvmStatic
     fun longToast(context: Context, number: Double){
         Toast.makeText(context, number.toString(), Toast.LENGTH_LONG).show()
     }
 
+    @JvmStatic
     fun shortToast(context: Context, number: Double){
         Toast.makeText(context, number.toString(), Toast.LENGTH_SHORT).show()
     }
